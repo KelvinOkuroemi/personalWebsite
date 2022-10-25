@@ -4,7 +4,7 @@ import { image } from '../assets/assets/index.js'
 
 
 const Hero = () => (
-  <section id='home' className={`flex md:flex-row flex-col mt-3 ss:-mt-16 ${styles.paddingY}`}>
+  <section id='home' className={`flex md:-mt-64 md:flex-row flex-col mt-3 ss:-mt-16 ${styles.paddingY}`}>
     <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
       <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2 text-gray-400">
         <span className="text-white">welcome &nbsp; </span> to Kelvin's &nbsp; <span className="text-white">website</span>
